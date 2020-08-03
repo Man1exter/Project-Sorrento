@@ -1,0 +1,576 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ddd;
+    /* overflow: hidden; */
+}
+.menu{
+    display: flex;
+width: 100%;
+height: 10vh;
+background-color: rgb(36, 34, 34);
+align-items: center;
+justify-content: center;
+position: fixed;
+z-index: 2;
+}
+.meny{
+color: white;
+margin: 20px;
+font-size: 25px;
+cursor: pointer;
+transition: .5s linear;
+}
+.tel{
+color: white;
+margin: 30px;
+font-size: 25px;
+cursor: pointer;
+transition: .5s linear;
+}
+.main{
+color: white;
+margin: 20px;
+font-size: 25px;
+cursor: pointer;
+transition: .5s linear;
+position: relative;
+}
+.meny:hover,
+.tel:hover,
+.main:hover{
+color: orange;
+}
+.napis{
+    font-size: 80px;
+    color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    flex-grow: 1;
+    animation: move 3s linear infinite;
+    margin-left: 50px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.pgg{
+    background-color: rgb(29, 26, 26);
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.gold{
+    flex-grow: 1;
+    height: 55vh;
+    bottom: 0;
+}
+@keyframes move {
+    0%{ color: orange;}
+    5%{color: rgb(231, 162, 13);}
+    20%{color: rgb(250, 173, 8);}
+    40%{color: rgb(214, 137, 20);}
+    60%{color: rgb(216, 203, 25);}
+    80%{color: orange;}
+    100%{color: rgb(224, 137, 22);}
+}
+i{
+    margin: 8px;
+    transition: .3s linear;
+}
+i:hover{
+    color: red;
+}
+.boy{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background-color: transparent;
+    bottom: 32%;
+    left: 0;
+    animation: boy 3s linear infinite;
+    z-index: 1;
+}
+
+@keyframes boy{
+    0%{left: 0; bottom: 32%;}
+    5%{left: 5%; bottom: 32%;}
+    10%{left: 10%; bottom: 32%;}
+    20%{left: 20%; bottom: 32%;}
+    40%{left: 40%; bottom: 32%;}
+    60%{left: 60%; bottom: 31%;}
+    80%{left: 80%; bottom: 32%;}
+    100%{left: 89%; bottom: 31%;}
+}
+.dania{
+     width: 100%;
+    height: 57vh; 
+    display: flex;
+    background-color: rgb(63, 62, 62);
+    flex-direction: row;
+    justify-content: center;
+    flex-basis: 15%;
+}
+.pizza{
+    width: 50%;
+    margin: 20px 50px;
+    border-radius: 10px;
+    border: 3px solid black;
+    box-shadow: 9px 15px 35px 0px rgba(0,0,0,0.75);
+}
+.info{
+    width: 150%;
+    height: 52vh;
+    flex-direction: column;
+    text-align: center;
+    border: 3px solid black;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: black;
+    line-height: 30.9px;
+    box-shadow: 9px 15px 35px 0px rgba(0,0,0,0.75);
+    text-transform: uppercase;
+    margin: 20px;
+}
+.godziny{
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: yellow;
+    width: 100%;
+    border-radius: 6px 6px 0px 0px;
+    margin-bottom: 5px;
+    transition: .3s linear;
+}
+h2{
+    height: 7.25%;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    background-color: #ddd;
+    width: 100%;
+    font-size: 30px;
+    cursor: pointer;
+    color: blue;
+}
+h3{
+    font-size: 30px;
+    background-color: white;
+    width: 100%;
+    cursor: pointer;
+}
+.ciasto{
+    height: 52vh;
+    border: 3px solid black;
+    margin: 20px 50px;
+    border-radius: 20px;
+    box-shadow: 9px 15px 35px 0px rgba(0,0,0,0.75);
+    order: 2;
+}
+.posilki{
+    width: 100%;
+    height: 100vh;
+}
+h2:hover{
+background-color: white;
+}
+h3:hover{
+    background-color: #ddd;
+}
+.godziny:hover{
+    background-color: orange;
+}
+.stopeczka{
+    width: 100%;
+    height: 5%;
+    background-color: rgb(129, 118, 118);
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+    background-color: gold;
+    animation: movecolor 3s linear infinite;
+}
+@keyframes movecolor{
+    0%{background-color: rgb(255, 217, 0);}
+    25%{background-color: rgb(240, 213, 64);}
+    50%{background-color: rgb(199, 182, 90);}
+    75%{background-color: rgb(240, 212, 56);}
+    100%{background-color: rgb(255, 217, 0);}
+}
+.posilki{
+    background-color: rgb(117, 107, 107);
+}
+
+.piec{
+    width: 33.47%;
+    height: 94.7%;
+}
+.ameri{
+    width: 33%;
+    height: 94.7%;
+}
+.pala{
+    height: 94.7%;
+    width: 33%;  
+}
+.ungold{
+    width: 100%;
+    height: 150vh;
+    background-color: rgb(121, 117, 117);
+    overflow: hidden;
+}
+.stupka{
+    height: 5vh;
+    background-color: orange;
+    text-align: center;
+    line-height: 50px;
+    font-size: 50px;
+    animation: yes 5s linear infinite;
+}
+
+@keyframes yes {
+    0%{background-color: orange;}
+    25%{background-color: orange;}
+    50%{background-color: gold;}
+    75%{background-color: orange;}
+    100%{background-color: orange;}
+}
+
+@keyframes mello{
+    0%{background-color: orange;}
+    25%{background-color: rgb(212, 88, 42);}
+    50%{background-color: orange;}
+    75%{background-color: rgb(192, 80, 39);}
+    100%{ background-color: orange;}
+}
+.ser{
+    width: 49.5%;
+    height: 100%;
+    transition-duration: 2s;
+    margin: 0 auto;
+}
+.ser:hover{
+    transform: scale(1.1);
+    z-index: 0;
+}
+.serr{
+    width: 50%;
+    height: 100%;
+    transition-duration: 2s;
+    margin: 0 auto;
+}
+.serr:hover{
+    transform: scale(1.15);
+    z-index: 0;
+}
+
+.mediaa{
+    width: 100%;
+    height:11vh;
+    background-color: black;
+    text-align: center;
+    line-height: 110px;
+}
+.fa-facebook{
+    color: white;
+    font-size: 60px;
+    cursor: pointer;
+    transition: .5s linear;
+    padding: 15px;
+    line-height: 60px;
+    border-radius: 50%;
+}
+.fa-facebook:hover{
+    color: rgb(50, 50, 161);
+    background-color: #ddd;
+}
+
+.fa-chevron-circle-up{
+    color: rgb(32, 173, 39);
+    position: fixed;
+    right: 1%;
+    bottom: 1%;
+    font-size: 50px;
+    cursor: pointer; 
+    transition: .5s linear;
+    border: 3px solid rgb(190, 53, 53);
+    border-radius: 50%;
+}
+.enfo{
+position: absolute;
+width: 22%;
+height: 12%;
+background-color: white;
+top: 15%;
+left: 5%;
+z-index: 1;
+background-color: orange;
+text-align: center;
+line-height: 32px;
+border-radius: 10px;
+border: 3px solid green;
+font-size: 25px;
+transition: .5s linear;
+}
+.guld{
+text-align: center;
+line-height: 50px;
+border-radius: 0px 0px 10px 10px;
+overflow: hidden;
+}
+.enfo2{
+    position: absolute;
+    width: 22%;
+    height: 12%;
+    background-color: white;
+    top: 30%;
+    left: 5%;
+    z-index: 1;
+    background-color: orange;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 10px;
+    border: 3px solid green;
+    font-size: 25px;
+    transition: .5s linear;
+    }
+    .guld2{
+    text-align: center;
+    line-height: 50px;
+    border-radius: 0px 0px 10px 10px;
+    overflow: hidden;
+    }
+    .enfo:hover{
+        border: 3px solid yellowgreen;
+        background-color: yellow;
+        
+    }
+    .enfo:before {
+        content: '';
+        position: absolute;
+        border: lightskyblue solid 3px;
+        border-radius: 5px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.5s;
+        -webkit-transition-property: top, right, bottom, left;
+        transition-property: top, right, bottom, left;
+      }
+      .enfo:hover:before, .enfo:focus:before, .enfo:active:before {
+        top: -10px;
+        right: -10px;
+        bottom: -10px;
+        left: -10px;
+      }
+    .enfo2:hover{
+        border: 3px solid yellowgreen;
+        background-color: yellow;
+        
+    }
+    .enfo:hover{
+        border: 3px solid yellowgreen;
+        background-color: yellow;
+        
+    }
+    .enfo2:before {
+        content: '';
+        position: absolute;
+        border: lightskyblue solid 3px;
+        border-radius: 5px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.5s;
+        -webkit-transition-property: top, right, bottom, left;
+        transition-property: top, right, bottom, left;
+      }
+      .enfo2:hover:before, .enfo2:focus:before, .enfo2:active:before {
+        top: -10px;
+        right: -10px;
+        bottom: -10px;
+        left: -10px;
+      }
+      .guld h2{
+          background-color: white;
+      }
+      .guld2 h2{
+        background-color: white;
+    }
+.fa-phone-square{
+   color: black;
+   animation: curul 10s linear infinite;
+}
+@keyframes curul{
+    0%{color: red;}
+    5%{color: pink;}
+    10%{color: violet;}
+    15%{color: green;}
+    20%{color: greenyellow;}
+    25%{color: lightblue;}
+    30%{color: blueviolet;}
+    40%{color: yellow;}
+    45%{color: brown;}
+    50%{color: cyan;}
+    55%{color: chocolate;}
+    60%{color: crimson;}
+    65%{color: khaki;}
+    70%{color: wheat;}
+    75%{color: purple;}
+    80%{color: papayawhip;}
+    85%{color: paleturquoise;}
+    90%{color: gold;}
+    95%{color: fuchsia;}
+    100%{color: firebrick;}
+}
+.fa-instagram{
+    width: 80px;
+    height: 80px;
+    font-size: 60px;
+    color: white;
+    line-height: 50px;
+}
+.fa-instagram:hover{
+    color: purple;
+    background-color: white;
+    border-radius: 50%;
+    line-height: 80px;
+}
+.fa-phone{
+color: yellow;
+}
+.fa-phone:hover{
+transform: rotate(-140deg);
+}
+.fa-pizza-slice{
+    color: yellow;
+}
+.fa-home{
+color: yellow;
+}
+
+.dat{
+position: absolute;
+width: 99.7%;
+height: .3%;
+background-color: white;
+top: 65.5%;
+z-index: 0;
+border: dashed;
+}
+.adres{
+    position: absolute;
+    width: 21.5%;
+    height: 12%;
+    background-color: white;
+    top: 45%;
+    left: 5.35%;
+    z-index: 1;
+    background-color: orange;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 10px 10px 10px 10px;
+    border: 3px solid green;
+    font-size: 25px;
+    transition: .5s linear;
+    text-align: center;
+    line-height: 115px;
+    font-size: 40px;
+    overflow: hidden;
+}
+.adres h1{
+    left: 3%;
+    position: relative;
+    letter-spacing: 5px;
+}
+.square{
+    position: absolute;
+    top: -35%;
+    left: -10%;
+    width: 2px;
+	height: 2px;
+	border-top: 70px solid transparent;
+	border-bottom: 70px solid transparent;
+	border-left: 150px solid black;
+    margin: 30px auto 0;
+}
+
+
+/* nawigacja wysuwana na przycisk */
+
+
+.arrowek{
+    background-color: white;
+    position: absolute;
+    width: 21%;
+    height: 11.5%;
+    top: 45.5%;
+    left: 5.5%;
+    z-index: 1;
+    text-align: center;
+    line-height: 120px;
+    font-size: 60px;
+    /* background: transparent; */
+    display: flex;
+    background-color: orange;
+    z-index: 0;
+}
+.arrowek h1{
+    font-size: 15.5px;
+    line-height: 20px;
+    color: blue;
+    background-color: green;
+    position: relative;
+    margin-left: 2px;
+    flex-grow: 1;
+    border-radius: 5px;
+    position: relative;
+    left: 10%;
+}
+.fa-arrow-circle-right{
+position: relative;
+line-height: 90px;
+left: 22%;
+color: black;
+border-radius: 10px;
+background-color: cadetblue;
+cursor: pointer;
+transition: .2s linear;
+border: 3px solid green;
+
+}
+@keyframes amant{
+0%{color: yellow;}
+20%{color: lightblue ;}
+40%{color: black;}
+60%{color: black;}
+80%{color:lightblue;}
+100%{color: yellow;}
+}
+.fa-map-marker-alt{
+    cursor: pointer;
+    font-size: 35px;
+    animation: amant 5s linear infinite;
+    color: blue;
+    border: 3px solid red;
+    width: 50px;
+    background-color: red;
+    border-radius: 10px;
+}
+/* odwrocenie sie strzalki po wyjechaniu */
+/* wysuniecie sie nawigacji sorrent */
+/* tymczasowe ukrycie elementow */
+
+.arrowek.move{
+    /* left: 25%; */
+    z-index: 1;
+}
+.fa-arrow-circle-right.move{
+    transform: rotate(180deg);
+    color: green;
+    background-color: gold;
+    z-index: 1;
+}
