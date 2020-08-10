@@ -572,7 +572,7 @@ border: 3px solid green;
 }
 .fa-arrow-circle-right.move{
     transform: rotate(180deg);
-    color: green;
+    color: blue;
     background-color: gold;
     z-index: 1;
 }
