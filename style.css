@@ -160,6 +160,7 @@ h3{
     cursor: pointer;
     color: brown;
 }
+
 .ciasto{
     height: 52vh;
     border: 3px solid black;
@@ -173,10 +174,10 @@ h3{
     height: 100vh;
 }
 h2:hover{
-background-color: white;
+background-color: lightskyblue;
 }
 h3:hover{
-    background-color: #ddd;
+    background-color: lightskyblue;
 }
 .godziny:hover{
     background-color: orange;
