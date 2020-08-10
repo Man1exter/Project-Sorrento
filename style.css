@@ -144,19 +144,21 @@ i:hover{
 }
 h2{
     height: 7.25%;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     word-spacing: 10px;
     background-color: #ddd;
     width: 100%;
     font-size: 30px;
     cursor: pointer;
     color: black;
+    line-height: 35px;
 }
 h3{
-    font-size: 30px;
+    font-size: 32px;
     background-color: white;
     width: 100%;
     cursor: pointer;
+    color: brown;
 }
 .ciasto{
     height: 52vh;
