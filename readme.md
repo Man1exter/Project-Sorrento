@@ -1,5 +1,8 @@
-This is my first project on GitHub
------------------------------------
-*Website about pizza and dishes for my friend
-------------------------------
-
+# Project-Sorrento
+---------------------------
+*THIS is my first project 
+---------------------------
+*I learn how to use git and github
+---------------------------
+I create this website with satisfaction 
+---------------------------
