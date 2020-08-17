@@ -193,14 +193,14 @@ h3:hover{
     animation: movecolor 3s linear infinite;
 }
 @keyframes movecolor{
-    0%{background-color: rgb(255, 217, 0);}
-    25%{background-color: rgb(240, 213, 64);}
-    50%{background-color: rgb(199, 182, 90);}
-    75%{background-color: rgb(240, 212, 56);}
-    100%{background-color: rgb(255, 217, 0);}
+    0%{background-color: rgb(254, 217, 0);}
+    25%{background-color: rgb(241, 213, 64);}
+    50%{background-color: rgb(197, 182, 90);}
+    75%{background-color: rgb(241, 212, 56);}
+    100%{background-color: rgb(252, 217, 0);}
 }
 .posilki{
-    background-color: rgb(117, 107, 107);
+    background-color: rgb(113, 103, 103);
 }
 
 .piec{
@@ -288,14 +288,14 @@ h3:hover{
 }
 
 .fa-chevron-circle-up{
-    color: rgb(32, 173, 39);
+    color: rgb(30, 170, 35);
     position: fixed;
     right: 1%;
     bottom: 1%;
     font-size: 50px;
     cursor: pointer; 
     transition: .5s linear;
-    border: 3px solid rgb(190, 53, 53);
+    border: 3px solid rgb(190, 50, 50);
     border-radius: 50%;
 }
 .enfo{
