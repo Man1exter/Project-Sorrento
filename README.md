@@ -1,8 +1,11 @@
-# Project-Sorrento
+# Project-Sorrento #
 ---------------------------
-*THIS is my first project 
+*THIS is my first project* 
 ---------------------------
-*I learn how to use git and github
+*I learn how to use git and github*
 ---------------------------
-I create this website with satisfaction 
+I create this website with satisfaction*
 ---------------------------
+I open my skills on there :D *
+-----------------------------
+
