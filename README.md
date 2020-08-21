@@ -1,4 +1,4 @@
-# Project-Sorrento #
+# Project-Sorrento # ONLY FULL DESKTOP PX
 ---------------------------
 *THIS is my first project* 
 ---------------------------
